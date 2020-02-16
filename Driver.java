@@ -15,8 +15,21 @@ public class Driver
     {
         IPod bar = new IPod("apple", 100, 5, "double a", "iphone 2", 4);
         CellPhone f = new CellPhone("apple", 5, 5, "222", true, "AA");
+        AlarmClock loud = new AlarmClock("occ", 5, 3, "bedroom", "1:50PM", "1:51PM");
+        Clock louder = new Clock("occ", 5, 3, "kitchen", "2:50PM");
+        Electronics computer = new Electronics("dell", 2, 10);
+        HomeAppliance washerMachine = new HomeAppliance("walmart", 100, 85, "basement");
+        PortableElectronics phone = new PortableElectronics("apple", 50000, 8, "AAA");
+        WallClock foo = new WallClock("unknown", 50, 8, "bathroom", "2:14PM");
+        Printer print = new Printer("HP", 30, 5, "computer room", 900, true, true);
 
-        System.out.print(f);
+        System.out.println(foo);
+        System.out.println(print);
+        System.out.println(loud);
+        System.out.println(louder);
+        System.out.println(computer);
+        System.out.println(washerMachine);
+        System.out.println(f);
         System.out.println(bar);
     }
 }
