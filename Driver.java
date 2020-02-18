@@ -32,9 +32,8 @@ public class Driver
         System.out.print("\n\n");
         System.out.println(print);      //printer 
         System.out.print("\n\n");
-        
-        //do i need to print out electronics
+       
         //java docs 
-        //electronics home appliance clock abstract
+        //make them abstract.. portable, home appliance, electronics 
     }
 }
