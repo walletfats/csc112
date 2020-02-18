@@ -17,9 +17,6 @@ public class Driver
         CellPhone iphone = new CellPhone("apple", 5, 5, "222", true, "AA");
         AlarmClock loud = new AlarmClock("occ", 5, 3, "bedroom", "1:50PM", "1:51PM");
         Clock louder = new Clock("occ", 5, 3, "kitchen", "2:50PM");
-        Electronics computer = new Electronics("dell", 2, 10);
-        HomeAppliance washerMachine = new HomeAppliance("walmart", 100, 85, "basement");
-        PortableElectronics phone = new PortableElectronics("apple", 50000, 8, "AAA");
         WallClock foo = new WallClock("unknown", 50, 8, "bathroom", "2:14PM");
         Printer print = new Printer("HP", 30, 5, "computer room", 900, true, true);
         
@@ -31,13 +28,13 @@ public class Driver
         System.out.print("\n\n");
         System.out.println("Clock\n" + louder);           //clock
         System.out.print("\n\n");
-        System.out.println("Electronics\n" + computer);            //electronics
-        System.out.print("\n\n");
-        System.out.println("Home Appliance\n" + washerMachine);    //home appliance
-        System.out.print("\n\n");
         System.out.println(foo);        //wall clock
         System.out.print("\n\n");
         System.out.println(print);      //printer 
         System.out.print("\n\n");
+        
+        //do i need to print out electronics
+        //java docs 
+        //electronics home appliance clock abstract
     }
 }
