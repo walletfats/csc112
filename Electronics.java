@@ -10,7 +10,7 @@ package electronics;
  * @version 2.0
  * @author jason steiger
  */
-public class Electronics
+public abstract class Electronics
 {
     protected String manufacturer;
     protected double price;
@@ -27,6 +27,6 @@ public class Electronics
     {
         return "Manufacturer: " + manufacturer + "\nPrice: " + price + "\nWeight: " + weight;
     }
-    
-    
+
+
 }

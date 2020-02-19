@@ -9,21 +9,21 @@ package electronics;
  *
  * @author jason
  */
-public class HomeAppliance extends Electronics
+public abstract class HomeAppliance extends Electronics
 {
     protected String room;
-    
+
     public HomeAppliance(String manufacturer, double price, double weight, String room)
     {
         super(manufacturer, price, weight);
         this.room = room;
     }
-            
+
     public String room()
     {
         return room;
     }
-    
+
     public String toString()
     {
         return super.toString() + "\nRoom: " + room;
