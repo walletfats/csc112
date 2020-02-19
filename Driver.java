@@ -1,13 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package electronics;
 
 /**
+ * Driver class for Electronics classes. Instantiates and calls each objects
+ * methods.
  *
  * @author jason
+ *
  */
 public class Driver
 {
@@ -19,10 +17,10 @@ public class Driver
         Clock louder = new Clock("occ", 5, 3, "kitchen", "2:50PM");
         WallClock foo = new WallClock("unknown", 50, 8, "bathroom", "2:14PM");
         Printer print = new Printer("HP", 30, 5, "computer room", 900, true, true);
-        
+
         System.out.println("IPod\n" + ipodTouch);         //Ipod
         System.out.print("\n\n");
-        System.out.println("Cell phone\n" + iphone);      //cell phone 
+        System.out.println("Cell phone\n" + iphone);      //cell phone
         System.out.print("\n\n");
         System.out.println("Alarm Clock\n" + loud);       //alarm clock
         System.out.print("\n\n");
@@ -30,10 +28,7 @@ public class Driver
         System.out.print("\n\n");
         System.out.println(foo);        //wall clock
         System.out.print("\n\n");
-        System.out.println(print);      //printer 
+        System.out.println(print);      //printer
         System.out.print("\n\n");
-       
-        //java docs 
-        //make them abstract.. portable, home appliance, electronics 
     }
 }
