@@ -22,7 +22,7 @@ public abstract class PortableElectronics extends Electronics
     * @param batteryType String the batteries of the product.
     *
     */
-    PortableElectronics(String manufacturer, double price, double weight, String batteryType)
+    public PortableElectronics(String manufacturer, double price, double weight, String batteryType)
     {
         super(manufacturer, price, weight);
         this.batteryType = batteryType;
@@ -33,7 +33,7 @@ public abstract class PortableElectronics extends Electronics
     *
     * @return String the batteries of the product.
     */
-    public String batteryType()
+    public abstract String batteryType()
     {
         return batteryType;
     }
