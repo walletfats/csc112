@@ -32,7 +32,7 @@ public abstract class HomeAppliance extends Electronics
     * @return String the name of the room
     *
     */
-    public String room()
+    public abstract String room()
     {
         return room;
     }
